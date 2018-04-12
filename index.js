@@ -15,3 +15,11 @@ function johnLennonFacts(factsAr) {
   return factsAr
 }
 
+function iLoveTheBeatles(aNum) {
+  var howMuchILove = []
+  var i = 0
+  do {
+   howMuchILove[i] = "I love the Beatles!" 
+   i++
+  } while (i < aNum)
+}
