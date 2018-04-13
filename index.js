@@ -18,8 +18,11 @@ function johnLennonFacts(factsAr) {
 function iLoveTheBeatles(aNum) {
   var howMuchILove = []
   var i = 0
+  
+  if (aNum < 15) {
   do {
    howMuchILove[i] = "I love the Beatles!" 
    i++
   } while (i < aNum)
+  }
 }
