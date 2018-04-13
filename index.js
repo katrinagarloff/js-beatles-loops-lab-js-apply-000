@@ -24,5 +24,6 @@ function iLoveTheBeatles(aNum) {
    howMuchILove[i] = "I love the Beatles!" 
    i++
   } while (i < aNum && aNum < 15)
+  return howMuchILove
   
 }
